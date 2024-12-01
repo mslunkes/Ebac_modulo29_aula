@@ -1,9 +1,13 @@
-const temaLight ={
-  corPrincipal: '#282a35',
-  corSecundaria: '#949494',
-  corDeFundo: '#fff',
-  corDeFundoBotao: '#4476bf',
-  corDaBorda: '#c1c1c1',
+const temaLight = {
+  corPrincipal: '#a7727d',
+  corSecundaria: '#f9f5e7',
+  corDeFundo: '#fff'
 }
 
 export default temaLight
+
+export interface Theme {
+  corPrincipal: string
+  corSecundaria: string
+  corDeFundo: string
+}
